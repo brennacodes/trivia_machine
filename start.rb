@@ -1,5 +1,4 @@
 require './lib/helper.rb'
-# require_relative 'trivia_runner.rb'
 
 $categories = CardGenerator.new.categories_list
 $downcased_categories = $categories.map(&:downcase)
