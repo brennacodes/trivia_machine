@@ -54,7 +54,8 @@ class Round
   end
 
   def percent_correct
-    (number_correct / @turn_count.to_f) * 100
+    percent = (number_correct / @turn_count.to_f) * 100
+    percent.nan? ? 0 : percent
   end
 
   def percent_correct_by_category(category)

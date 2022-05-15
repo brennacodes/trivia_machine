@@ -2,12 +2,13 @@ require './lib/helper.rb'
 # require_relative 'trivia_runner.rb'
 
 $categories = CardGenerator.new.categories_list
+$downcased_categories = $categories.map(&:downcase)
 $answers = CardGenerator.new.answers_list
 
 $valid = ['all', 'quit', 'again']
 
 $categories.each {|cat| $valid << cat.downcase}
-$answers.each {|cat| $valid << cat.downcase}
+$answers.each {|ans| $valid << ans.downcase}
 
 $cards = CardGenerator.new.cards
 $deck = Deck.new($cards)
@@ -18,71 +19,83 @@ $input = ''
 class NewGame
 
   def initialize
-    $deck_type = 'unknown'
+    @game = 'New Game'
+  end
+
+  def quit?
+    $input == 'quit'
   end
 
   def start
     puts messages[:begin]
     $input = gets.chomp.downcase
-    abort "#{messages[:goodbye]}" if $input == 'quit'
-    # $categories.any?($input) ? partial_deck : full_deck
-    partial_deck
+    abort "#{messages[:goodbye]}" if quit? == true
+    $downcased_categories.include?($input) ? partial_deck : full_deck
   end
 
   def partial_deck
-    $deck_type = 'partial'
     cards = CardGenerator.new
     cards.partial_deck($input)
+    $cards.shuffle!
     $deck = Deck.new($cards)
     $round = Round.new($deck)
-    puts messages[:confirmation]
-    ask_question
+    confirm
   end
 
   def full_deck
-    $deck_type = 'full'
+    $cards.shuffle!
+    confirm
+  end
+
+  def confirm
     puts messages[:confirmation]
     ask_question
   end
 
-
   def ask_question
-    puts "----------------------"
-    puts "-QUESTION:------------"
+    puts "-QUESTION:--------------------------------------------------------"
     puts  $round.current_card.question
-    puts "----------------------"
+    puts "------------------------------------------------------------------"
     answer_question
   end
 
   def answer_question
     $input = gets.chomp.downcase
-    if $input != 'quit'
-      $round.take_turn($input)
-      get_feedback
-    else
-      check_ending
-    end
+    return check_ending if quit? == true
+    process_turn
   end
 
-  def get_feedback
-    while $input != 'quit'
-      puts "----------------------"
-      puts ">>>>>>>>>>>> #{$round.turn_feedback}"
-      if $round.turn_feedback == 'Incorrect.'
-        puts "The correct answer is:\n
-        #{$round.turns.last.card.answer}"
-      end
-      if $round.turn_count == $deck.cards.size
-        check_ending
-      else
-        $round.card_complete
-        ask_question
-      end
-    end
+  def process_turn
+    $round.take_turn($input)
+    game_cycle
+  end
+
+  def game_cycle
+    return get_feedback if quit? == false
     check_ending
   end
 
+  def get_feedback
+    puts "----------------------"
+    puts ">>>>>>>>>>>> #{$round.turn_feedback}"
+    if $round.turn_feedback == 'Incorrect.'
+      puts "The correct answer is:
+      #{$round.turns.last.card.answer}"
+    end
+    what_next?
+  end
+
+  def what_next?
+    if $round.turn_count == $deck.cards.size
+      check_ending
+    else
+      $round.card_complete
+      ask_question
+    end
+  end
+
   def check_ending
+    return messages[:fast_ending] if $round.turn_count == 0
     $round.percent_correct > 50.0 ? happy_ending : sad_ending
   end
 
@@ -99,7 +112,7 @@ class NewGame
   end
 
   def checkout
-    abort "#{messages[:goodbye]}" if $input == 'quit'
+    abort "#{messages[:goodbye]}" if quit? == true
     return start if $input == 'again'
     return puts messages[:error] if $input != $valid.any?($input)
   end
@@ -134,6 +147,12 @@ class NewGame
 
   def extra_messages
     {
+      fast_ending:
+      "------------------------------------------------------------------\n
+      😢 Oh no! Going so soon?
+      If you're sure you'd like to quit, just type 'quit'. 🛑
+      If you'd like to play again, just type 'again'. ✅\n
+      ------------------------------------------------------------------\n",
       ending_good:
       "------------------------------------------------------------------\n
       😃 Well, hello, Einstein! You did great!\n

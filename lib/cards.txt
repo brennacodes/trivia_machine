@@ -6,7 +6,7 @@ About how many taste buds does the average human tongue have?,10000,Science
 Who did Madonna kiss at the 2003 VMAs?,Britney Spears and Christina Aguilera,Pop Culture
 How much does the Chewbacca costume weigh?,8 pounds,Pop Culture
 What colors are the Norwegian flag?,Red white and blue,Geography
-Where would you find the world’s most ancient forest?,Daintree Forest - north of Cairns in Australia,Geography
+What is the world’s most ancient forest?,Daintree Forest,Geography
 Globe and Jerusalem are types of what?,Artichoke,Other
 Which is the highest waterfall in the world?,Angel Falls (Venezuela),Geography
 Ludwig Van Beethoven was born in 1770 in which city?,Berlin,History
@@ -17,13 +17,13 @@ Name the 3 primary colors.,Red yellow blue,Other
 Which name is rapper Sean Combs better known by?,P.Diddy,Pop Culture
 Which country invented tea?,China,Geography
 Pure water has a pH level of around?,7,Science
-Which is the only vowel on a standard keyboard that is not on the top line of letters?,A,language
+Which is the only vowel on a standard keyboard that is not on the top line of letters?,A,Language
 Who starts first in chess?,White,Other
-What was Britney Spears’ first song?,“Baby One More Time,Pop Culture
+What was Britney Spears’ first song?,Baby One More Time,Pop Culture
 What did Queen Anne die of?,A stroke,History
-Groups of lions are known as what?,Prides,language
+Groups of lions are known as what?,Prides,Language
 How many pairs of wings does a bee have?,2,Science
-What language has the most words?,English,language
+What language has the most words?,English,Language
 What’s the most expensive home in the world?,Buckingham Palace,Other
 Kodiak island is in which US state?,Alaska,Geography
 Which castle is on the island of Anglesey?,Beaumaris,Geography
@@ -42,8 +42,8 @@ The fear referred to as arachnophobia indicates a fear of what?,Spiders,Science
 What color is a Himalayan poppy flower?,Blue,Other
 What was the name of the family who starred in 7th Heaven?,The Camdens,Pop Culture
 Name the world’s biggest island.,Greenland,Geography
-Which sport does Costantino Rocca play?,Golf,sports
-Which boxer was known as “The Greatest” and “The People’s Champion”?,Muhammad Ali,sports
+Which sport does Costantino Rocca play?,Golf,Sports
+Which boxer was known as “The Greatest” and “The People’s Champion”?,Muhammad Ali,Sports
 What flavor is Cointreau?,Orange,Other
 Which country is Prague in?,Czech Republic,Geography
 What does the term “piano” mean?,To be played softly,Other
@@ -54,7 +54,7 @@ Which planet has the most gravity?,Jupiter,Science
 What was Beyoncé’s first solo album?,Dangerously In Love,Pop Culture
 What is your body’s largest organ?,The skin,Science
 Which country did AC/DC originate in?,Australia,Pop Culture
-In what state did the first official American baseball game take place?,New Jersey,sports
+In what state did the first official American baseball game take place?,New Jersey,Sports
 What is “Vineyard” in Vineyard Vines named after?,Martha’s Vineyard,Pop Culture
 Which mammal doesn’t have vocal cords?,Giraffe,Science
 The colored part of the human eye that controls how much light passes through the pupil is called?,Iris,Science
@@ -92,7 +92,7 @@ What’s the first letter on a typewriter?,Q,Other
 Which kind of flower bulbs were once exchanged as a form of currency?,Tulips,Other
 Name the Spanish artist sculptor and draughtsman famous for co-founding the Cubist movement.,Pablo Picasso,Art
 What year was Walt Disney born?,1901,Pop Culture
-Which Williams sister has won more Grand Slam titles?,Serena,sports
+Which Williams sister has won more Grand Slam titles?,Serena,Sports
 Which planet is known as the red planet?,Mars,Science
 What heavenly body was demoted from planet status recently?,Pluto,Science
 What does space sound like?,Space is silent,Science
@@ -106,20 +106,20 @@ What’s the medical term for bad breath?,Halitosis,Science
 How many total time zones are there in the world?,24,Geography
 How long is an eon in geology?,A billion years,Science
 How much weight can an ant lift?,50 times its weight,Other
-How many soccer players should each team have on the field at the start of each match?,11,sports
+How many soccer players should each team have on the field at the start of each match?,11,Sports
 What year was the very first model of the iPhone released?,2007,Technology
 What does “HTTP” stand for?,HyperText Transfer Protocol,Technology
 Who was the first woman to win a Nobel Prize (in 1903?,Marie Curie,History
 What part of the atom has no electric charge?,Neutron,Science
 How many Earths could fit inside the sun?,1 million,Science
 Where were the Declaration of Independence the Constitution and the Bill of Rights stored during World War II?,Fort Knox,History
-When Michael Jordan played for the Chicago Bulls how many NBA Championships did he win?,6,sports
+When Michael Jordan played for the Chicago Bulls how many NBA Championships did he win?,6,Sports
 Which African country was formerly known as Abyssinia?,Ethiopia,Geography
 Which singer’s real name is Stefani Joanne Angelina Germanotta?,Lady Gaga,Pop Culture
 What’s the shortcut for the “copy” function on most computers?,Ctrl C,Technology
-Which Jamaican runner is an 11-time world champion and holds the record in the 100 and 200-meter race?,Usain Bolt,sports
+Which Jamaican runner is an 11-time world champion and holds the record in the 100 and 200-meter race?,Usain Bolt,Sports
 How many neck bones does a giraffe have?,7,Science
-In the movie “The Golden Child,” what does the child animate to amuse his captor?,A Coke can,Pop Culture
+In the movie “The Golden Child” what does the child animate to amuse his captor?,A Coke can,Pop Culture
 Who received the first artificial heart transplant surgery in 1982?,Barney Clark,Science
 In which video game did Super Mario first appear?,Donkey Kong,Pop Culture
 Which animal has the largest eye in the world?,The giant squid,Science
