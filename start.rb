@@ -77,8 +77,8 @@ class NewGame
 
   def get_feedback
     puts "----------------------"
-    puts ">>>>>>>>>>>> #{$round.turn_feedback}"
-    if $round.turn_feedback == 'Incorrect.'
+    puts "#{$round.turn_feedback}"
+    if $round.turn_feedback == '❌❌Incorrect.❌❌'
       puts "The correct answer is:
       #{$round.turns.last.card.answer}"
     end
