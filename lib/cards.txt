@@ -44,7 +44,6 @@ What was the name of the family who starred in 7th Heaven?,The Camdens,Pop Cultu
 Name the world’s biggest island.,Greenland,Geography
 Which sport does Costantino Rocca play?,Golf,Sports
 Which boxer was known as “The Greatest” and “The People’s Champion”?,Muhammad Ali,Sports
-What flavor is Cointreau?,Orange,Other
 Which country is Prague in?,Czech Republic,Geography
 What does the term “piano” mean?,To be played softly,Other
 Who was the first American to go into space?,Alan Shephard,History
@@ -128,7 +127,6 @@ What is someone who shoes horses called?,Farrier,Other
 What kind of weapon is a falchion?,A sword,Other
 Who invented the rabies vaccine?,Louis Pasteur,Science
 Which garden is considered to be among the 7 Wonders of the Ancient World?,The Hanging Gardens of Babylon,Geography
-Which kind of bulbs were once exchanged as a form of currency?,Tulips (17th century Holland,Other
 Which chess piece can only move diagonally?,Bishop,Other
 How many valves does a trumpet have?,3,Other
 What flavor is Cointreau?,Orange,Other

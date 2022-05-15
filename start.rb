@@ -122,9 +122,9 @@ class NewGame
     begin:
       "------------------------------------------------------------------\n
       It's trivia time with the Trivia Machine®!\n
-      Test your knowledge! Learn something new! Have fun!\n
+      Test your knowledge! Learn something new! Have fun!
       I'll ask you questions. Type in your answer or best guess.\n
-      👉 You may select a category from the list by typing in its name, or\n
+      👉 You may select a category from the list by typing in its name, or
       to get a mix of all categories, type 'all'.\n
       #{$categories}\n
       🛑 Type 'quit' to stop at any time.\n

@@ -34,16 +34,16 @@ class Round
   end
 
   def number_correct
-    @turns.count {|turn| turn.card.answer.downcase == turn.guess}
+    @turns.count {|turn| turn.correct? == true}
   end
 
   def number_incorrect
-    @turns.count {|turn| turn.card.answer.downcase != turn.guess}
+    @turns.count {|turn| turn.correct? == false}
   end
 
   def number_correct_by_category(category)
     @turns.count do |turn|
-      turn.card.answer == turn.guess && turn.card.category == category
+      turn.correct == true && turn.card.category == category
     end
   end
 
