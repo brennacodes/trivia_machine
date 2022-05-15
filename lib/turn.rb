@@ -9,7 +9,8 @@ class Turn
   end
 
   def correct?
-    @guess == @card.answer.downcase
+    answer = @card.answer.downcase
+    answer.include?(@guess)
   end
 
   def feedback

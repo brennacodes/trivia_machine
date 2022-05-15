@@ -4,6 +4,7 @@ require './lib/helper.rb'
 $categories = CardGenerator.new.categories_list
 $downcased_categories = $categories.map(&:downcase)
 $answers = CardGenerator.new.answers_list
+$downcased_answers = $answers.map(&:downcase)
 
 $valid = ['all', 'quit', 'again']
 
