@@ -2,7 +2,8 @@
 Test your knowledge! Impress your friends! Find out how much you *don't* know!
 
 ## To play:
-- From the terminal, cd or "change directories" to the trivia_machine folder (ex. `cd this_folder/trivia_machine`)
+- Clone or download this repo to your computer
+- From the terminal, navigate using `cd` (aka "change directories") to the trivia_machine folder (ex. `cd this_folder/trivia_machine`)
 - Run the command `ruby trivia_machine.rb`
 - Follow the prompts in your terminal to begin playing
 
