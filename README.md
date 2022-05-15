@@ -6,11 +6,11 @@ Test your knowledge! Impress your friends! Find out how much you *don't* know!
 - Run the command `ruby trivia_machine.rb`
 - Follow the prompts in your terminal to begin playing
 
-#### To quit:
+### To quit:
 - type `'quit'`
 
-#### About the Trivia Machine®®
-The Trivia Machine®®® was created for "funzies"(read *masochistic pleasure*) as a ridiculous extension to the "Flash Cards" project during Mod 1 at Turing School.
+### About the Trivia Machine®®
+The Trivia Machine®®® was created for "funzies"(read *masochistic pleasure*) as a ridiculous extension to the "[Flash Cards](https://github.com/brennacodes/flash_cards/blob/main/README.md)" project during Mod 1 at Turing School.
 
 I wanted to push myself to create something that was a little more dynamic and interactive than the Flashcards shown, and this is the result.
 
