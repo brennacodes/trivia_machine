@@ -24,9 +24,10 @@ The Trivia Machine®®® was created for "funzies"(read *masochistic pleasure*) 
 I wanted to push myself to create something that was a little more dynamic and interactive than the Flashcards shown, and this is the result.
 
 #### A few fun facts:
-- The game is programmed to accept partial, but still correct answers. For example "skin" for "The skin", or "einstein" for "Albert Eisntein."
+- The game is programmed to accept partial, but still correct answers. For example "skin" for "The skin", or "einstein" for "Albert Einstein."
 - The game will let you play a mix of categories or a specific category.
 - You can quit at any time and the game will output either your score or a goodbye message if you haven't officially started a round yet.
+- The game is programmed to shuffle the questions with each new round, so you'll never get the same game twice.
 
 
 Hope you enjoy!
