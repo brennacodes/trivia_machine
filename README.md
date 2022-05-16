@@ -1,5 +1,7 @@
 # It's the Trivia Machine®!!!!
-Test your knowledge! Impress your friends! Find out how much you *don't* know!
+Test your knowledge!  
+Impress your friends!  
+Find out how much you *don't* know!
 
 ## To play:
 - Clone or download this repo to your computer
